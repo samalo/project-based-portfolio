@@ -125,7 +125,7 @@ h3 {
 .text-lg {
   color: var(--darkblue);
   font-size: 18px;
-  font-style: none;
+  font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
@@ -133,7 +133,7 @@ h3 {
 .text-md {
   color: var(--darkblue);
   font-size: 16px;
-  font-style: none;
+  font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
@@ -141,7 +141,7 @@ h3 {
 .text-sm {
   color: var(--black);
   font-size: 14px;
-  font-style: none;
+  font-style: normal;
   font-weight: 400;
   line-height: 21px;
 }
@@ -162,7 +162,7 @@ h3 {
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
-  line-height: 24;
+  line-height: 24px;
 }
 
 /* Section title ends */
@@ -192,6 +192,36 @@ h3 {
   gap: 21.333px;
 }
 
-.hero--section--content-box > button {
+.hero--section--content--box > button {
   margin-top: 21.333px;
 }
+
+.hero--section--title {
+  color: var(--heading-color);
+  font-size: 74.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
+}
+
+.hero--section--title--color {
+  color: var(--primary);
+}
+
+.hero--section-description {
+  color: var(--darkblue);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.hero--section--img {
+  display: flex;
+}
+
+.hero--section--img > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Hero section style ends */
